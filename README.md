@@ -1,6 +1,6 @@
 # Monte Carlo Option Pricing and Delta Hedging
 
-A Python project exploring Monte Carlo methods for option pricing and hedging under the Black–Scholes framework.
+A Python project exploring Monte Carlo methods for option pricing and hedging under the Black-Scholes framework.
 
 The project develops reusable pricing and simulation functions alongside notebooks investigating the theoretical and numerical behaviour of the methods.
 
@@ -8,14 +8,14 @@ The project develops reusable pricing and simulation functions alongside noteboo
 
 - Geometric Brownian motion simulation
 - European option pricing using Monte Carlo simulation
-- Validation against Black–Scholes analytical prices
+- Validation against Black-Scholes analytical prices
 - Monte Carlo convergence analysis
 - Antithetic variates
 - Control variates
 - Arithmetic Asian option pricing
 - Monte Carlo delta estimation using finite differences and common random numbers
 - Discrete delta hedging
-- Transaction costs and the hedge-frequency bias–variance tradeoff
+- Transaction costs and the hedge-frequency bias-variance tradeoff
 
 ## Structure
 
@@ -51,7 +51,7 @@ $$
 V_0 = e^{-rT}E[H_T].
 $$
 
-Monte Carlo estimates are compared against Black–Scholes prices where an analytical benchmark is available.
+Monte Carlo estimates are compared against Black-Scholes prices where an analytical benchmark is available.
 
 Variance reduction techniques are used to improve estimator efficiency without changing the underlying pricing model.
 
